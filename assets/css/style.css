@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 5%;
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(197.29deg, #DC07FF 4.82%, #0C7A9C 66.29%);
+  position: relative;
+}
+header .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navigation img.logo {
+  height: 40px;
+}
+header .navigation i {
+  color: white;
+  font-size: 20px;
+}
+header svg {
+  position: absolute;
+  left: 0;
+  top: 60px;
+}
+header .presentation {
+  padding: 40px 0;
+  color: white;
+}
+header .presentation p {
+  font-size: 1.4rem;
+}
+header .presentation h1 span {
+  color: orange;
+  font-weight: normal;
+}
+header .presentation h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+header .presentation h2 {
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+header .reach-me {
+  background-color: white;
+  color: #0C7A9C;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0px 4px 4px rgba(222, 7, 255, 0.4117647059);
+}
+header .profile {
+  background-color: white;
+  border-radius: 20px;
+  width: 240px;
+  height: 240px;
+  position: relative;
+  align-self: flex-end;
+  box-shadow: 0px 4px 4px rgba(222, 7, 255, 0.4117647059);
+  margin-top: 40px;
+  margin-left: auto;
+}
+header .profile img {
+  position: absolute;
+  bottom: 0;
+}
+
+main .social-media {
+  padding: 16px 5%;
+  margin: 40px 0;
+  display: flex;
+  gap: 16px;
+}
+main .social-media a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #0C7A9C;
+}
+
+main section {
+  padding: 30px 5%;
+}
+main section:nth-child(odd) {
+  background-color: rgba(12, 122, 156, 0.09);
+}
+main section h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 10px;
+}
+main section h3::after {
+  content: "";
+  height: 4px;
+  width: 10%;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  border-radius: 2px;
+}
+
+section#work {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section#work .work {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid rgb(194, 194, 194);
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+section#work .work img {
+  width: 100%;
+}
+
+section#exhibition {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section#exhibition .exhibition {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+section#exhibition .exhibition span {
+  display: block;
+}
+section#exhibition .exhibition span.date {
+  color: gray;
+}
+section#exhibition .exhibition span.place {
+  color: #0C7A9C;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+section#exhibition img {
+  width: 90%;
+  margin-left: auto;
+}/*# sourceMappingURL=style.css.map */

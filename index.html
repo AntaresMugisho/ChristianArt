@@ -5,24 +5,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christian Art</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+          }
+        }
+      }
+    </script>
 </head>
 <body>
     <header>
         <div class="navigation">
              <div class="brand">
-            <img src="logo.png" alt="Logo de Christian Art">
+                <img class="logo" src="./images/logo.jpg" alt="Logo de Christian Art">
             </div>
             <nav class="nav">
                 <i class="humburger">#</i>
             </nav> 
         </div>
 
-        <p>Hello,</p>
-        <h1><span>I'm</span>Christian Rukeza</h1>
-        <h2>Visuel artiste Hyper Realistic</h2>
+        <svg width="317" height="137" viewBox="0 0 317 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M-1.11374 66.1998C24.9197 25.975 64.0491 -6.57983 105.024 34.4997C156.242 85.8492 203.451 156.407 270.607 80.1138" stroke="white" stroke-opacity="0.35"/>
+            <path d="M306.806 57.4044L294.404 44.0344L300.134 38.7196L312.536 52.0896L306.806 57.4044Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M296.176 45.9444L282.266 48.1866L274.82 74.6361L301.754 69.1966L305.034 55.4944L296.176 45.9444Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M274.82 74.6361L289.309 61.1967" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M295.692 58.83C295.768 56.7967 294.182 55.0864 292.148 55.01C290.115 54.9336 288.405 56.5199 288.328 58.5532C288.252 60.5865 289.838 62.2968 291.872 62.3732C293.905 62.4497 295.615 60.8633 295.692 58.83Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+        <div class="presentation">
+            <p>Hello,</p>
+            <h1><span>I'm</span> Christian Rukeza</h1>
+            <h2>Visuel artiste Hyper Realistic</h2>
+        </div>
+
+        <a href="#" class="reach-me">REACH ME</a>
+    
+
+        <div class="profile">
+            <img src="./images/profile.png" alt="Profile de Christian Rukeza">
+        </div>
+        
     </header>
     <main>
+        <div class="social-media">
+            <a href="facebook.com">f</a>
+            <a href="twitter.com">t</a>
+        </div>
         
+
+        <section>
+            <h2>Biography</h2> 
+            <h3>About Christian Rukeza</h3>
+            <p>Christian Rukeza (born in 2003) is a Congolese artist based in Bujumbura/Burundi, who is known for his hyper realistic pencil and charcoal portraits. He is passionate about creating art that inspires, motivates and edifies, was o change the world positively.</p>
+        </section>  
+        
+        <section>
+            <h3>The journey</h3>
+            <p>Christian began drawing since he was young and whole neighborhood knows that he is an artist and even at school his teacher had no problems when it came to drawing on the board for others.
+                At the age 17 that Christian decided to laugh into art and pursue a professional career. He began taking the basic drawing course at a training center in his neighborhood and at the end the training he decided to be self-taught.</p>
+        </section> 
+        
+        <section>
+            <h3>Artist statement</h3>
+            <p>Thought my artistic creations I want to transmit to the public the problem that we face in society in order to find a solution.
+                And I’m also inspired by a great HyperRealistic artist <strong>Arinze stanley </strong> , je said that: &gt;_Most times it’s almost like I lose control of my pencil and the art flows through me to the paper. I work with my principle of the three p’s namely patience, practice and persistence. These have guided me over the years toward perfecting craft.</p>
+        </section>
+
+        <section id="work">
+            <h3>Work</h3>
+            <div class="work">
+                <img src="./images/Image JPEG 6.jpeg" alt="">
+                <p class="title">Title : Childhhood I</p>
+                <p class="year">Year: 2022</p>
+            </div>
+            <div class="work">
+                <img src="./images/Image JPEG 7.jpeg" alt="">
+                <p class="title">Title : Childhhood II</p>
+                <p class="year">Year: 2022</p>
+            </div>
+            <div class="work">
+                <img src="./images/Image JPEG 8.jpeg" alt="">
+                <p class="title">Title : Smile</p>
+                <p class="year">Year: 2023</p>
+            </div>
+            <div class="work">
+                <img src="./images/Image JPEG 9.jpeg" alt="">
+                <p class="title">Title : Uncle Tim</p>
+                <p class="year">Year: 2023</p>
+            </div>
+        </section>
+
+        <section id="exhibition">
+            <h3>Exhibition</h3>
+            <div class="exhibition">
+                <p class="date">
+                    <span class="date">September 13, 2023</span> 
+                    <span class="place">Mont Zion Hotel</span>
+                </p>
+              
+                <img src="./images/Image JPEG 5.jpeg" alt="">
+
+                <p>
+                    Overall, the various speakers of the 4th edition of the #JunionPrayerBreakfast including the Co-founder and Director of CDA, Tim Kreutter, Ambassador Albert NASASAGARE, Allan Shepherd, Regional Coordinator of the AYLF, all put the  emphasis on the opportunities to see and draw from the diversity of people.
+                    
+                     On the sidelines of the event which saw the participation of youth delegations from Rwanda, Uganda and the DRC, among others, the painter Christian RUKEZA offered paintings to the President of the Burundian Senate as a thank you.  Emmanuel SINZOHAGERA and the Co-founder and Director of the CDA, Tim Kreutter.</p>
+            </div>
+
+            <div class="exhibition">
+                <p class="date">
+                    <span class="date">June 23 - July 12, 2023</span> 
+                    <span class="place">Izuba Culturel Center</span>
+                </p>
+
+                <img src="./images/Image JPEG.jpeg" alt="">
+
+                <p> Culture: The Venerables, an exhibition in honor of the vulnerable!
+                    
+                     Seeing the public perplexed and confused, Christian RUKEZA decided to clarify the meaning of their art.
+                    
+                     “Hyperrealism consists of reproducing an image in such a realistic way that the viewer wonders whether the work produced is a painting or a photograph.  It’s that feeling you get when you don’t believe it, that we live for,” he explains.</p>
+            </div>
+        </section>
+
+        <section>
+            <h3>Publication</h3>
+            <a href="https://akeza.net/culture-les-venerables-une-expo-a-lhonneur-des-vulnerables/">Akeza.net</a>
+        </section>
     </main>
 </body>
 </html>
