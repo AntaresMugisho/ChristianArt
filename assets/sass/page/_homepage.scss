@@ -171,12 +171,17 @@ section#work{
         padding:8px 12px 0;
         border-radius:4px;
         width: 100%;
-        max-width: 350px;
+        max-width: 400px;
 
 
         img{
             width: 100%;
             max-width: 350px;
+            border-radius:6px;
+        }
+
+        .title{
+            margin-top:4px;
         }
     }
 }
@@ -210,6 +215,7 @@ section#exhibition{
         width:90%;
         max-width: 500px;
         margin-left: auto;
+        border-radius: 6px;
     }
 }
 
