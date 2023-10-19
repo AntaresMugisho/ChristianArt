@@ -139,7 +139,7 @@ main section{
         font-size: 1.4rem;
         font-weight: bold;
         position: relative;
-        margin-bottom:10px;
+        margin-bottom:20px;
 
         &::after{
             content:"";
@@ -151,6 +151,10 @@ main section{
             bottom:-5px;
             border-radius: 2px;
         }
+    }
+
+    p{
+        color:gray;
     }
 }
 
